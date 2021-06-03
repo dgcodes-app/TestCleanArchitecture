@@ -30,10 +30,11 @@ La aplicación es muy sencilla, la finalidad de esta app es mostrar la forma de 
 Pantallas que verá el usuario y gestión de las interacciones del usuario
 
 La presentacion de la informacion en pantalla se realiza utilizando el patron de diseño MVP, estableciendo un Presenter para cada Activity que será el encargado de gestionar los datos a presentar dejando a la propia Activity lo más libre de lógica posible.
-En los presenter tambien se ha implementado Corrutinas, cambiando asi el hilo de ejecucción para relizar las llamadas  a WS en un hilo distinto al principal
+
+En los presenter tambien se ha implementado las corrutinas, cambiando asi el hilo de ejecucción para relizar las llamadas  a WS en un hilo distinto al principal
 
 ### Dominio
-Definición de las reglas de negocio  y los diferntes casos de uso que se van a utilizar
+Definición de las reglas de negocio  y los diferentes casos de uso que se van a utilizar
 
 
 ### Accesos a datos
