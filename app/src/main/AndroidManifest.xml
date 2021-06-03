@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dgcodes.mvpb">
+    package="com.dgcodes.cleanarchitecture">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".Init"
+        android:name="com.dgcodes.cleanarchitecture.Init"
         android:allowBackup="true"
         android:icon="@drawable/logo"
         android:label="@string/app_name"
@@ -13,8 +13,8 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.MVPB">
-        <activity android:name=".presentacion.view.acitivities.DetalleActivity"></activity>
-        <activity android:name=".presentacion.view.acitivities.ListaActivity">
+        <activity android:name="com.dgcodes.cleanarchitecture.presentacion.view.acitivities.DetalleActivity"></activity>
+        <activity android:name="com.dgcodes.cleanarchitecture.presentacion.view.acitivities.ListaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
