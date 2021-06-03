@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentacion.view.acitivities.DetalleActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    style="@style/BaseActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/localizacion"
+        style="@style/TituloActivity" />
+
+    <ToggleButton
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:text="@string/favorito"
+        android:id="@+id/btnFavorito"
+        android:background="@drawable/toggle_start"
+        android:textOff=""
+        android:textOn=""
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imagen"
+        android:layout_width="@dimen/dimen_item"
+        android:layout_height="@dimen/dimen_item"
+        android:layout_marginTop="25dp"
+        app:civ_border_color="#cacaca"
+        app:civ_border_width="3dp"
+        tools:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombrePersonaje"
+        tools:text="Nombre de la localizacion"
+        style="@style/PersonajeDetalle"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombreLocalizacion"
+        tools:text="Nombre de la localizacion"
+        style="@style/H1"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDimension"
+        style="@style/H2"
+        tools:text="Nombre de la localizacion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTipo"
+        tools:text="Nombre de la localizacion"
+        style="@style/H2"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:id="@+id/btnVolver"/>
+
+
+</LinearLayout>
