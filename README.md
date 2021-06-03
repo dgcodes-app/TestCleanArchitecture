@@ -9,9 +9,6 @@ La aplicación consta de una pantalla que presenta información al usuario en fo
 
 <table>
   <tr>
-      <td>
-<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/v01.gif" width="350px"> 
-    </td>
     <td>
 <img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/img01.png" width="350px"> 
     </td>
@@ -22,7 +19,10 @@ La aplicación consta de una pantalla que presenta información al usuario en fo
   </table>
   
 
-<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/video01.mp4" width="350px"> 
+
+La aplicación es muy sencilla, la finalidad de esta app es mostrar la forma de implementar Clean Architecture
+
+<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/v1.gif" width="350px"> 
 
 ## Capas Implementadas
 
