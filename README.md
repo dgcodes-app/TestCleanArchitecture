@@ -1,11 +1,28 @@
 # App Demo
 App desarrollada 100% en Kotlin
 
-## App Demo utilizanzo Clean Architecture
+## App Demo utilizando Clean Architecture
 
 Esta app pretende ser una pequeña guía de como se puden crear app en Android basada en los prinpios de Clean Architecture.
 
 La aplicación consta de una pantalla que presenta información al usuario en forma de lista, se puede acceder al detalle de cada elemento
+
+<table>
+  <tr>
+      <td>
+<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/v01.gif" width="350px"> 
+    </td>
+    <td>
+<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/img01.png" width="350px"> 
+    </td>
+    <td>
+<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/img02.png" width="350px"> 
+    </td>
+  </tr>
+  </table>
+  
+
+<img src="https://github.com/dgcodes-app/TestCleanArchitecture/blob/main/media/video01.mp4" width="350px"> 
 
 ## Capas Implementadas
 
