@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MVPB</string>
+    <string name="app_name">Clean Architecture</string>
     <string name="personajes">Personajes</string>
     <string name="localizacion">Localización</string>
     <string name="favorito">Favorito</string>

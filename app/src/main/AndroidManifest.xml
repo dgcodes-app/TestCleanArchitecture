@@ -12,7 +12,7 @@
         android:networkSecurityConfig="@xml/network_config"
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MVPB">
+        android:theme="@style/Theme.CA">
         <activity android:name="com.dgcodes.cleanarchitecture.presentacion.view.acitivities.DetalleActivity"></activity>
         <activity android:name="com.dgcodes.cleanarchitecture.presentacion.view.acitivities.ListaActivity">
             <intent-filter>
